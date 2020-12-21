@@ -1,0 +1,74 @@
+absl-py==0.9.0
+aiohttp @ file:///tmp/build/80754af9/aiohttp_1602530305083/work
+asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
+astunparse==1.6.3
+async-timeout==3.0.1
+attrs==19.3.0
+bcrypt==3.1.7
+blinker==1.4
+brotlipy==0.7.0
+cached-property==1.5.1
+cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
+certifi==2020.12.5
+cffi==1.14.0
+chardet @ file:///tmp/build/80754af9/chardet_1605303159953/work
+click==7.1.2
+cryptography==2.3.1
+cycler==0.10.0
+docopt==0.6.2
+Flask==1.1.2
+future==0.18.2
+gast==0.3.3
+google-auth @ file:///tmp/build/80754af9/google-auth_1607969906642/work
+google-auth-oauthlib==0.4.1
+google-pasta==0.2.0
+h5py @ file:///tmp/build/80754af9/h5py_1593454119955/work
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1593446408836/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+kiwisolver==1.2.0
+Markdown @ file:///tmp/build/80754af9/markdown_1597433218422/work
+MarkupSafe==1.1.1
+matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1592846017414/work
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+multidict @ file:///tmp/build/80754af9/multidict_1600456400975/work
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+numpy==1.19.4
+oauthlib==3.1.0
+pandas==1.1.5
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+PyJWT==1.7.1
+PyNaCl @ file:///tmp/build/80754af9/pynacl_1595009142140/work
+pyOpenSSL==19.0.0
+pyparsing==2.4.7
+pyrsistent==0.16.0
+PySocks @ file:///tmp/build/80754af9/pysocks_1594394576006/work
+python-dateutil==2.8.1
+pytz==2020.4
+PyYAML==5.3.1
+regex @ file:///tmp/build/80754af9/regex_1593435542598/work
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+requests-oauthlib==1.3.0
+rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
+scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1592502882224/work
+scipy==1.5.4
+seaborn==0.10.1
+six @ file:///tmp/build/80754af9/six_1605205313296/work
+termcolor==1.1.0
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+tornado @ file:///tmp/build/80754af9/tornado_1606942283357/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
+urllib3==1.25.9
+websocket-client @ file:///tmp/build/80754af9/websocket-client_1602006590740/work
+Werkzeug==1.0.1
+wrapt==1.12.1
+xgboost==1.3.0.post0
+yarl @ file:///tmp/build/80754af9/yarl_1606939952652/work
+zipp==3.1.0
