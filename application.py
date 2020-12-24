@@ -1,6 +1,7 @@
 
 #Import the necessary libraries
 from flask import Flask, render_template, request
+
 import pickle
 
 application = Flask(__name__)               #initializing a flask app
@@ -14,7 +15,7 @@ def index():
     if request.method == 'POST':
         try:
             #reading the inputs from the user
-            age = float(request.form['age'])
+            age = int(request.form['age'])
             time = int(request.form['time'])
             serum_creatinine = float(request.form['serum_creatinine'])
             ejection_fraction = int(request.form['ejection_fraction'])
@@ -23,15 +24,15 @@ def index():
             loaded_model = pickle.load(open(filename, 'rb'))        #Loading the saved model file
             #Predictions using the model
             prediction = loaded_model.predict([[age,time,serum_creatinine,ejection_fraction]])
-            prediction('Prediction is', prediction)
+            print('Prediction is', prediction)
             #Displaying the prediction results in a UI
-            return render_template('results.html')
+            return render_template('results.html',prediction=prediction)
         except Exception as e:
             print('The Exception message is: ',e)
-            return 'something is wrong'
+            return 'something went wrong'
         #else return render_template('results.html)
     else:
-            return render_template(('index.html'))
+         return render_template(('index.html'))
 
 
 

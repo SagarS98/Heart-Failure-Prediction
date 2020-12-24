@@ -8,14 +8,14 @@
 
 {% block body %}
 <div class="content">
-    <h1 style="text-align: center">Predict Your chances for Admission</h1>
+    <h1 style="text-align: center">Predict Heart Failure</h1>
 
     <div class="form">
         <form action="/predict" method="POST">
-            <input type="number" name="age" id="gre_score" placeholder="Age">
-            <input type="number" name="time" id="toefl_score" placeholder="Time">
-            <input type="number" name="serum_creatinine" id="university_rating" placeholder="Serum Creatinine">
-            <input type="number" name="ejection_fraction" id="sop" placeholder="Ejection Fraction">
+            <input type="number" name="age" id="age" placeholder="Age">
+            <input type="number" name="time" id="time" placeholder="Time">
+            <input type="number" name="serum_creatinine" id="serum_creatinine" placeholder="Serum Creatinine">
+            <input type="number" name="ejection_fraction" id="ejection_fraction" placeholder="Ejection Fraction">
 
             <input type="submit" value="Predict">
         </form>
